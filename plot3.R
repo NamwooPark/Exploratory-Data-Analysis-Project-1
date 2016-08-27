@@ -1,3 +1,5 @@
+library(lubridate)  # data package
+library(dplyr)
 
 # unzip and read data file
 unzip(zipfile="household_power_consumption.zip")
