@@ -1,3 +1,6 @@
+library(lubridate)  # data package
+library(dplyr)
+
 # unzip and read data file
 unzip(zipfile="household_power_consumption.zip")
 wholeData <- read.table("household_power_consumption.txt", 
